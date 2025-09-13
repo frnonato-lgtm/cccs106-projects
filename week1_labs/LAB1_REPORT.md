@@ -43,7 +43,7 @@ I learned that maintaining a good structure of the workspace can easily make the
 
 ## Screenshots
 
-![Basic Calculator Output](lab1_screenshots/basic_calculator_output.png)
 ![Environment Setup](lab1_screenshots/environment_setup.png)
-![Hello World Output](lab1_screenshots/hello_world_output.png)
 ![VSCode Setup](lab1_screenshots/vscode_setup.png)
+![Hello World Output](lab1_screenshots/hello_world_output.png)
+![Basic Calculator Output](lab1_screenshots/basic_calculator_output.png)
