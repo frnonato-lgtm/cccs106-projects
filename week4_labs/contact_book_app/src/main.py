@@ -26,7 +26,7 @@ def main(page: ft.Page):
     spacing=10,
     auto_scroll=False,
     height=250
-)
+    )
 
     add_button = ft.ElevatedButton(
         text="Add Contact",
