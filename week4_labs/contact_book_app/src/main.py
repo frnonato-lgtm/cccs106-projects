@@ -22,7 +22,11 @@ def main(page: ft.Page):
     )
     inputs = (name_input, phone_input, email_input)
 
-    contacts_list_view = ft.ListView(expand=1, spacing=10, auto_scroll=True)
+    contacts_list_view = ft.ListView(
+    spacing=10,
+    auto_scroll=False,
+    height=250
+)
 
     add_button = ft.ElevatedButton(
         text="Add Contact",
@@ -70,7 +74,8 @@ def main(page: ft.Page):
                 contacts_list_view,
             ],
             alignment=ft.MainAxisAlignment.START,
-            horizontal_alignment=ft.CrossAxisAlignment.CENTER
+            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+            spacing=15
         )
     )
 
