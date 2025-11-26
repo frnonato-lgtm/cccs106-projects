@@ -12,9 +12,9 @@ Built using **Python** and **Flet** (Flutter for Python), the system features a 
 ## 👥 The Team
 | Name | Role | Responsibility |
 | :--- | :--- | :--- |
-| **Carl Renz Colico** | Product Owner / PM | Feature Planning & Pharmacist Logic |
-| **Kenji Nathaniel David** | Product Owner | Inventory Management Logic |
-| **Francis Gabriel Nonato** | Program Manager | Lead Developer, UI/UX, & Database |
+| **Carl Renz Colico** | Product Owner / PM | Product Lead / Vision & Feature Prioritization, UI/UX & Accessibility Designer |
+| **Kenji Nathaniel David** | Product Owner | QA / Test Coordinator, Documentation & Release Manager |
+| **Francis Gabriel Nonato** | Program Manager | Lead Developer, UI/UX & Accessibility Designer |
 
 ---
 
