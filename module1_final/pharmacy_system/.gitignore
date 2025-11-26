@@ -1,9 +1,0 @@
-# Python cache files
-__pycache__/
-*.pyc
-
-# Database (Keep this local so it doesn't conflict)
-pharmacy.db
-
-# Virtual Environment (Do not upload this!)
-venv/
