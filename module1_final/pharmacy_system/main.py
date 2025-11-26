@@ -8,7 +8,8 @@ from ui.login_page import LoginPage
 from ui.app_layout import AppLayout
 
 # Sub-views
-from ui.patient_views import PatientDashboard, MedicineSearch, CartView
+# NEW:
+from ui.patient import PatientDashboard, MedicineSearch, CartView, OrdersView, ProfileView
 from ui.pharmacist_views import PharmacistDashboard, PrescriptionsView
 from ui.inventory_views import InventoryDashboard, ManageStock
 from ui.billing_views import BillingDashboard, InvoicesView
@@ -79,6 +80,8 @@ def main(page: ft.Page):
 
             elif troute == "/patient/search": content = MedicineSearch()
             elif troute == "/patient/cart": content = CartView()
+            elif troute == "/patient/orders": content = OrdersView()
+            elif troute == "/patient/profile": content = ProfileView()
             elif troute == "/pharmacist/prescriptions": content = PrescriptionsView()
             elif troute == "/inventory/stock": content = ManageStock()
             elif troute == "/billing/invoices": content = InvoicesView()

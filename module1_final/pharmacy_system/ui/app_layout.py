@@ -76,6 +76,8 @@ class AppLayout(ft.Row):
         if role == "Patient":
             dests.append(ft.NavigationRailDestination(icon=ft.Icons.SEARCH, label="Search Meds"))
             dests.append(ft.NavigationRailDestination(icon=ft.Icons.SHOPPING_CART, label="My Cart"))
+            dests.append(ft.NavigationRailDestination(icon=ft.Icons.RECEIPT_LONG, label="My Orders"))
+            dests.append(ft.NavigationRailDestination(icon=ft.Icons.PERSON, label="My Profile")) 
         elif role == "Pharmacist":
             dests.append(ft.NavigationRailDestination(icon=ft.Icons.MEDICAL_SERVICES, label="Prescriptions"))
         elif role == "Inventory":
@@ -84,7 +86,7 @@ class AppLayout(ft.Row):
             dests.append(ft.NavigationRailDestination(icon=ft.Icons.RECEIPT_LONG, label="Invoices"))
         elif role == "Admin":
             dests.append(ft.NavigationRailDestination(icon=ft.Icons.PEOPLE, label="Users"))
-        dests.append(ft.NavigationRailDestination(icon=ft.Icons.LOGOUT, label="Logout"))
+            dests.append(ft.NavigationRailDestination(icon=ft.Icons.LOGOUT, label="Logout"))
         return dests
 
     # Handles clicking the sidebar buttons
@@ -98,6 +100,8 @@ class AppLayout(ft.Row):
         elif label == "Dashboard": self.page.go("/dashboard")
         elif label == "Search Meds": self.page.go("/patient/search")
         elif label == "My Cart": self.page.go("/patient/cart")
+        elif label == "My Orders": self.page.go("/patient/orders")
+        elif label == "My Profile": self.page.go("/patient/profile")
         elif label == "Prescriptions": self.page.go("/pharmacist/prescriptions")
         elif label == "Manage Stock": self.page.go("/inventory/stock")
         elif label == "Invoices": self.page.go("/billing/invoices")
